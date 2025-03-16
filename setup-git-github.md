@@ -85,18 +85,20 @@ Stage and commit your files:
    git add .
    ```
 
-2. **Commit** the files with a message:
+2. **Commit** the files with a message and select main branch:
    ```bash
    git commit -m "Initial commit"
+   git branch -M main
    ```
 
 ---
 
-### 9. **Link Your Local Repository to GitHub (Remote)**
+### 9. **Link Your Local Repository to GitHub (Remote) & push the code in main branch**
 1. Go to your GitHub repository and copy the repository URL (e.g., `https://github.com/username/my-first-repo.git`).
 2. In the VSCode terminal, run:
    ```bash
    git remote add origin https://github.com/username/my-first-repo.git
+   git push -u origin main
    ```
 
 ---
